@@ -1,0 +1,13 @@
+Project Description 
+Title: ATM Machine Simulator using Python  
+
+The ATM Machine Simulator is a console-based banking application developed in Python as a Class XII Computer Science project. It replicates the core functionalities of a real Automated Teller Machine (ATM) through a simple, interactive, and menu-driven interface.
+
+The program begins with a welcome screen prompting the user to enter a 4-digit PIN (default: 1234). On correct entry, the user is granted access to the main dashboard; incorrect PIN results in immediate access denial. Once logged in, a neatly formatted menu offers five options: Check Account Balance, Deposit Money, Withdraw Money, Change PIN, and Exit.
+
+The initial account balance is set at ₹5000. The balance inquiry option instantly displays the current amount. The deposit feature accepts any positive value entered by the user and updates the balance accordingly. Withdrawal is allowed only when sufficient funds are available, preventing overdraft. The PIN change option ensures the new PIN is exactly four digits long, enhancing basic security. The program runs in an infinite loop until the user selects the Exit option, which terminates the session with a thank-you message.
+
+The project effectively demonstrates fundamental programming concepts such as variables, data types, input/output operations, conditional statements (if-elif-else), loops (while True with break), and basic input validation. It uses clear formatting with borders and emojis to create an engaging and professional-looking interface.
+
+Entirely written in pure Python with no external libraries, the project is lightweight, easy to understand, and fully functional. It serves as an excellent practical example of a real-world menu-driven application, making it ideal for CBSE Class XII Computer Science practical examinations and viva preparation.
+

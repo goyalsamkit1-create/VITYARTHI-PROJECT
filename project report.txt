@@ -1,0 +1,55 @@
+1. INTRODUCTION
+An ATM (Automated Teller Machine) is an electronic device that allows bank customers to perform financial transactions like withdrawal, deposit, balance checking, etc., without visiting the bank.
+This project is a simple console-based ATM simulator created using Python. It demonstrates the use of basic programming concepts such as variables, input/output, conditional statements (if-elif-else), and loops (while).
+
+2. OBJECTIVE
+
+To create a menu-driven program in Python
+To implement real-life banking operations
+To practice the use of loops and decision-making statements
+To understand user input handling and basic validation
+
+
+3. FEATURES (Exactly as in your code)
+
+4-digit default PIN: 1234
+Initial balance: ₹5000
+Login with single PIN entry (no multiple attempts)
+Five main options:
+Check Account Balance
+Deposit Money
+Withdraw Money
+Change PIN (4 digits only)
+Exit
+
+Simple and clear menu with lines and emojis
+Immediate update of balance after deposit/withdrawal
+
+
+4. SOFTWARE & HARDWARE REQUIREMENTS
+Software:
+
+Python 3.x
+Any Python IDE (IDLE recommended)
+Operating System: Windows / Linux / macOS
+
+Hardware:
+
+Any computer with minimum 2 GB RAM
+
+5.LIMITATIONS & FUTURE SCOPE
+Limitations of Current Project
+
+Only one attempt allowed for PIN
+No validation if PIN contains only digits
+No limit on withdrawal/deposit amount
+Data is not saved after program closes
+No multiple user accounts
+
+Future Enhancements
+
+Add 3 wrong PIN attempts lock
+Save data using files
+Add transaction history
+Create graphical interface using Tkinter
+Add more banking features (transfer, mini statement)
